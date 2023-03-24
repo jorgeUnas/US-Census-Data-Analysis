@@ -1,3 +1,3 @@
-# US-Census-Data-Analysis
+# US Census Data Analysis
 
 ### Project Overview 
