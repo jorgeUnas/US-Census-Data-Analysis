@@ -13,6 +13,9 @@ This is the link to the Dashboards in Tableau Public: https://public.tableau.com
 
 This is an interactive dashboard containing a box plot and a dot plot. The box plot displays the interquartile range, the median values and the outliers of the average commute time for the counties in every state. There is a filter to show the top-N states in both charts. By default, this filter is set to show the 5-top states in terms of less commute time. According to this plot the state with the more efficient transportation is Alaska with a median commute time of 8.8 min. The box plot is useful to analyze the counties with transportation issues in this top-N states. For example, the county Matanuska-Susitna Borough (median commute time of 34.0 min) is an outlier for Alaska and this is related to the increase of traffic due to population increase in recent years (for further information consult the first link in resources).
  On the other hand, the dot plot shows the average percentage of people that use any of the transport means included in the dataset (public transport, carpool, drive and other transport). The box plot acts like a filter for the dot plot to select which state(s) visualize so by default this plot also shows the top-5 states. It looks like the pattern of the dots for the states is very similar, except for Alaska where the average percentage of people using carpool and other transport means (possibly bikes) is higher and this can influence positively the transport efficiency by reducing traffic. 
+ 
+ <img src="https://github.com/jorgeUnas/US_Census_Data_Analysis/blob/main/Where%20is%20the%20best%20transport.pdf" alt="Where is the best transport?"> 
+ 
  **Design:**
 
 I decided to use a box plot instead of a bar chart because I was interested in analyzing the presence of outliers and offer a better representation of the central tendency using the median instead of the mean. The presence of outliers was expected in this dataset because in some counties can be different traffic issues, different road conditions, the people can use alternative transport means and so on. It was also used a dot plot to compare the quantity of users of different transport means. This kind of plot shows more than one metric per category (in this case each state) which made it more suitable for this analysis than a bar chart. Moreover, every different metric is associated with a different dot color using a color-blind pattern and a color blindness Simulator to check the suitability of the colors (see the 2nd link below).  
@@ -29,6 +32,8 @@ https://www.usnews.com/news/best-states/slideshows/10-states-with-the-best-trans
 
 This is an interactive dashboard containing a map and one scatter plot. There is a filter beside the map to select the top-N states in terms of the most poverty rates. By default, this filter is set to show the top-5 states or in other words the 5 poorest states in US. According to this map the poorest state is Puerto Rico and in general the top-5 states are located in the south-east area of the US. There is also a tooltip for each state showing the non-white ethnicity breakdown. From these tooltips, it is observable that the proportion of black people in the 5 poorest states is higher than the other non-white ethnicities (Hispanics, Asians, Native Americans, Native Alaskans, Native Hawaiians and pacific Islanders) except to Puerto Rico where the population is predominantly Hispanic.  
 On the other hand, it exists a significative positive correlation (See the scatter plot) between unemployment rate and poverty rate for the 5 poorest countries (R2 = 0.98) which does not suggest that one of these factors causes the other.
+
+<img src="https://github.com/jorgeUnas/US_Census_Data_Analysis/blob/main/How%20does%20poverty%20look%20in%20US.pdf" alt="How does poverty look in US?"> 
 
 **Design:**
 
@@ -47,7 +52,8 @@ Zero labels for the axes were excluded in the scatter plot to better visualize t
 •	This is an interactive dashboard containing a bubble plot and a treemap plot. There is a filter beside the bubble plot to select the range of mean income per capita and visualize the states included in this range. By default, this filter is set from $33.8K to $47.7K and shows the top-5 states by mean income per capita. A divergent orange scale indicates that District of Columbia was the state with the highest income per capita in 2015 ($47.7K) followed by Connecticut ($37.0K). 
 Looking at the treemap it can be stated that the people working in professional positions are the most in US. Although, this plot shows the proportion (by the square sizes) and the amount of people working in every job sector in USA by default, it is also possible to see the same information for a specific state or group of states by using the bubble chart as a filter. For example, by selecting District of Columbia it can be noticed that this state has greater proportion of employees in professional positions compared to other job sectors.
 
-<img src="https://github.com/jorgeUnas/Deforestation_Analysis_SQL/blob/main/Amount%20Decrease%20in%20Forest%20Area%20by%20Country.png" alt="Forest area by country"> 
+
+<img src="https://github.com/jorgeUnas/US_Census_Data_Analysis/blob/main/Tops%20states%20by%20income%20per%20capita.pdf" alt="Where are the best salaries?"> 
 
 **Design:**
 
