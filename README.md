@@ -33,7 +33,7 @@ https://www.usnews.com/news/best-states/slideshows/10-states-with-the-best-trans
 This is an interactive dashboard containing a map and one scatter plot. There is a filter beside the map to select the top-N states in terms of the most poverty rates. By default, this filter is set to show the top-5 states or in other words the 5 poorest states in US. According to this map the poorest state is Puerto Rico and in general the top-5 states are located in the south-east area of the US. There is also a tooltip for each state showing the non-white ethnicity breakdown. From these tooltips, it is observable that the proportion of black people in the 5 poorest states is higher than the other non-white ethnicities (Hispanics, Asians, Native Americans, Native Alaskans, Native Hawaiians and pacific Islanders) except to Puerto Rico where the population is predominantly Hispanic.  
 On the other hand, it exists a significative positive correlation (See the scatter plot) between unemployment rate and poverty rate for the 5 poorest countries (R2 = 0.98) which does not suggest that one of these factors causes the other.
 
-<img src="https://github.com/jorgeUnas/US_Census_Data_Analysis/blob/main/Where%20is%20the%20best%20transport.png" alt="How does poverty look in US?"> 
+<img src="https://github.com/jorgeUnas/US_Census_Data_Analysis/blob/main/How%20does%20poverty%20look%20in%20US.png" alt="How does poverty look in US?"> 
 
 **Design:**
 
@@ -53,7 +53,7 @@ Zero labels for the axes were excluded in the scatter plot to better visualize t
 Looking at the treemap it can be stated that the people working in professional positions are the most in US. Although, this plot shows the proportion (by the square sizes) and the amount of people working in every job sector in USA by default, it is also possible to see the same information for a specific state or group of states by using the bubble chart as a filter. For example, by selecting District of Columbia it can be noticed that this state has greater proportion of employees in professional positions compared to other job sectors.
 
 
-<img src="https://github.com/jorgeUnas/US_Census_Data_Analysis/blob/main/Tops%20states%20by%20income%20per%20capita.pdf" alt="Where are the best salaries?"> 
+<img src="https://github.com/jorgeUnas/US_Census_Data_Analysis/blob/main/Tops%20states%20by%20income%20per%20capita.png" alt="Where are the best salaries?"> 
 
 **Design:**
 
