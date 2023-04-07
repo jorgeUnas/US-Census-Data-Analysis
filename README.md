@@ -43,8 +43,8 @@ Zero labels for the axes were excluded in the scatter plot to better visualize t
 
 **Resources:**
 
-•	https://www.statista.com/statistics/200476/us-poverty-rate-by-ethnic-group/
-•	https://www.color-blindness.com/coblis-color-blindness-simulator/ 
+https://www.statista.com/statistics/200476/us-poverty-rate-by-ethnic-group/
+https://www.color-blindness.com/coblis-color-blindness-simulator/ 
 
 ### 3. Where are the best salaries?
 **Summary:**
