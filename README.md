@@ -47,6 +47,8 @@ Zero labels for the axes were excluded in the scatter plot to better visualize t
 •	This is an interactive dashboard containing a bubble plot and a treemap plot. There is a filter beside the bubble plot to select the range of mean income per capita and visualize the states included in this range. By default, this filter is set from $33.8K to $47.7K and shows the top-5 states by mean income per capita. A divergent orange scale indicates that District of Columbia was the state with the highest income per capita in 2015 ($47.7K) followed by Connecticut ($37.0K). 
 Looking at the treemap it can be stated that the people working in professional positions are the most in US. Although, this plot shows the proportion (by the square sizes) and the amount of people working in every job sector in USA by default, it is also possible to see the same information for a specific state or group of states by using the bubble chart as a filter. For example, by selecting District of Columbia it can be noticed that this state has greater proportion of employees in professional positions compared to other job sectors.
 
+<img src="https://github.com/jorgeUnas/Deforestation_Analysis_SQL/blob/main/Amount%20Decrease%20in%20Forest%20Area%20by%20Country.png" alt="Forest area by country"> 
+
 **Design:**
 
 A bubble plot was useful to visually compare the mean income per capita. A divergent color scale was used to give a quick idea of this metric in every state and not saturate the visualization with numbers. In this case the filter acts just over the bubble plot and the interactivity of the treemap depends on the state(s) selected in the bubble plot. 
