@@ -16,7 +16,9 @@ This is an interactive dashboard containing a box plot and a dot plot. The box p
  **Design:**
 
 I decided to use a box plot instead of a bar chart because I was interested in analyzing the presence of outliers and offer a better representation of the central tendency using the median instead of the mean. The presence of outliers was expected in this dataset because in some counties can be different traffic issues, different road conditions, the people can use alternative transport means and so on. It was also used a dot plot to compare the quantity of users of different transport means. This kind of plot shows more than one metric per category (in this case each state) which made it more suitable for this analysis than a bar chart. Moreover, every different metric is associated with a different dot color using a color-blind pattern and a color blindness Simulator to check the suitability of the colors (see the 2nd link below).  
-•	Resources:
+
+**Resources:**
+
 https://matsugov.us/outreach/transportationroads
 https://www.color-blindness.com/coblis-color-blindness-simulator/
 https://www.usnews.com/news/best-states/slideshows/10-states-with-the-best-transportation 
@@ -33,10 +35,25 @@ On the other hand, it exists a significative positive correlation (See the scatt
 The top-n poorest states were displayed in a map with the intention of stablish a cluster analysis. For example, it can be said that the 5 poorest states are grouped in the south-east area of US or the 17 poorest states are in the south-east and south-west areas (check using the filter). A divergent color pattern was used to show the poverty rate in every state and a color vision deficiency (CVD) Simulator was used to facilitate the visualization of this metric for color-blindness people (see the 2nd link in resources).
 Pie charts were appended in the tooltips to show the percentage of each non-white populations in every state (taking the sum of those populations as the total). White populations were excluded from this plot because this is one of the ethnic groups with the less poverty rate nationwide (See the first link in resources). Calculated fields were created to get the number of people from every ethnicity group (e.g. [Black]*[Total Pop]/100 for the amount of black people in every county). The colors in the pie charts were selected using the color-blind pattern in-built in tableau.
 Zero labels for the axes were excluded in the scatter plot to better visualize the tendency among the points and optimize the space inside this plot. 
-![image](https://user-images.githubusercontent.com/106410793/230601902-cf87144a-067b-4ccf-be9e-439422899413.png)
 
- 
+**Resources:**
+
+•	https://www.statista.com/statistics/200476/us-poverty-rate-by-ethnic-group/
+•	https://www.color-blindness.com/coblis-color-blindness-simulator/ 
+
 ### 3. Where are the best salaries?
 **Summary:**
 
+•	This is an interactive dashboard containing a bubble plot and a treemap plot. There is a filter beside the bubble plot to select the range of mean income per capita and visualize the states included in this range. By default, this filter is set from $33.8K to $47.7K and shows the top-5 states by mean income per capita. A divergent orange scale indicates that District of Columbia was the state with the highest income per capita in 2015 ($47.7K) followed by Connecticut ($37.0K). 
+Looking at the treemap it can be stated that the people working in professional positions are the most in US. Although, this plot shows the proportion (by the square sizes) and the amount of people working in every job sector in USA by default, it is also possible to see the same information for a specific state or group of states by using the bubble chart as a filter. For example, by selecting District of Columbia it can be noticed that this state has greater proportion of employees in professional positions compared to other job sectors.
+
 **Design:**
+
+A bubble plot was useful to visually compare the mean income per capita. A divergent color scale was used to give a quick idea of this metric in every state and not saturate the visualization with numbers. In this case the filter acts just over the bubble plot and the interactivity of the treemap depends on the state(s) selected in the bubble plot. 
+The treemap plots is an appealing alternative to the pie charts because the rectangles are easier to interpretate than the angles and there is more space in rectangles to organize the labels, including more information and defining the color-coding without saturating the visualization. The numerical values used to design the treemap were the number of people in every job sector so new calculated field were created (e.g. [Professional]*[Total Pop]/100 for the number of professionals) and aggregated using SUM(). 
+
+**Resources:**
+
+https://en.wikipedia.org/wiki/List_of_U.S._states_by_adjusted_per_capita_personal_income 
+https://medium.com/nerd-for-tech/how-treemaps-are-better-than-pie-chart-5f8709057fbc#:~:text=What%20is%20a%20Treemap%3F,of%20the%20measure%20they%20represent. 
+
